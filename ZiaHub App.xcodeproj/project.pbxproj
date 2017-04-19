@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC1DFCE31EA44F0C006F19BA /* Job_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DFCE21EA44F0C006F19BA /* Job_Data.swift */; };
+		FC1DFCE71EA45B19006F19BA /* FindAJobVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DFCE61EA45B19006F19BA /* FindAJobVC.swift */; };
+		FC1DFCE91EA48B49006F19BA /* PickACategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DFCE81EA48B49006F19BA /* PickACategoryVC.swift */; };
+		FC581A2C1EA44C0C00030F55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC581A2B1EA44C0C00030F55 /* AppDelegate.swift */; };
+		FC581A2E1EA44C0C00030F55 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC581A2D1EA44C0C00030F55 /* HomeVC.swift */; };
+		FC581A301EA44C0C00030F55 /* PostAJobVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC581A2F1EA44C0C00030F55 /* PostAJobVC.swift */; };
+		FC581A331EA44C0C00030F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC581A311EA44C0C00030F55 /* Main.storyboard */; };
+		FC581A351EA44C0C00030F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC581A341EA44C0C00030F55 /* Assets.xcassets */; };
+		FC581A381EA44C0C00030F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC581A361EA44C0C00030F55 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC1DFCE21EA44F0C006F19BA /* Job_Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job_Data.swift; sourceTree = "<group>"; };
+		FC1DFCE61EA45B19006F19BA /* FindAJobVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindAJobVC.swift; sourceTree = "<group>"; };
+		FC1DFCE81EA48B49006F19BA /* PickACategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickACategoryVC.swift; sourceTree = "<group>"; };
+		FC581A281EA44C0C00030F55 /* ZiaHub App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZiaHub App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC581A2B1EA44C0C00030F55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC581A2D1EA44C0C00030F55 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FC581A2F1EA44C0C00030F55 /* PostAJobVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAJobVC.swift; sourceTree = "<group>"; };
+		FC581A321EA44C0C00030F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC581A341EA44C0C00030F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC581A371EA44C0C00030F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC581A391EA44C0C00030F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC581A251EA44C0C00030F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC581A1F1EA44C0C00030F55 = {
+			isa = PBXGroup;
+			children = (
+				FC581A2A1EA44C0C00030F55 /* ZiaHub App */,
+				FC581A291EA44C0C00030F55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC581A291EA44C0C00030F55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC581A281EA44C0C00030F55 /* ZiaHub App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC581A2A1EA44C0C00030F55 /* ZiaHub App */ = {
+			isa = PBXGroup;
+			children = (
+				FC1DFCE21EA44F0C006F19BA /* Job_Data.swift */,
+				FC581A2D1EA44C0C00030F55 /* HomeVC.swift */,
+				FC581A2F1EA44C0C00030F55 /* PostAJobVC.swift */,
+				FC1DFCE81EA48B49006F19BA /* PickACategoryVC.swift */,
+				FC1DFCE61EA45B19006F19BA /* FindAJobVC.swift */,
+				FC581A311EA44C0C00030F55 /* Main.storyboard */,
+				FC581A341EA44C0C00030F55 /* Assets.xcassets */,
+				FC581A2B1EA44C0C00030F55 /* AppDelegate.swift */,
+				FC581A361EA44C0C00030F55 /* LaunchScreen.storyboard */,
+				FC581A391EA44C0C00030F55 /* Info.plist */,
+			);
+			path = "ZiaHub App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC581A271EA44C0C00030F55 /* ZiaHub App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC581A3C1EA44C0C00030F55 /* Build configuration list for PBXNativeTarget "ZiaHub App" */;
+			buildPhases = (
+				FC581A241EA44C0C00030F55 /* Sources */,
+				FC581A251EA44C0C00030F55 /* Frameworks */,
+				FC581A261EA44C0C00030F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZiaHub App";
+			productName = "ZiaHub App";
+			productReference = FC581A281EA44C0C00030F55 /* ZiaHub App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC581A201EA44C0C00030F55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Joseph Salmond";
+				TargetAttributes = {
+					FC581A271EA44C0C00030F55 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = AP3R3Y2XJP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC581A231EA44C0C00030F55 /* Build configuration list for PBXProject "ZiaHub App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC581A1F1EA44C0C00030F55;
+			productRefGroup = FC581A291EA44C0C00030F55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC581A271EA44C0C00030F55 /* ZiaHub App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC581A261EA44C0C00030F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC581A381EA44C0C00030F55 /* LaunchScreen.storyboard in Resources */,
+				FC581A351EA44C0C00030F55 /* Assets.xcassets in Resources */,
+				FC581A331EA44C0C00030F55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC581A241EA44C0C00030F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC581A301EA44C0C00030F55 /* PostAJobVC.swift in Sources */,
+				FC581A2C1EA44C0C00030F55 /* AppDelegate.swift in Sources */,
+				FC1DFCE71EA45B19006F19BA /* FindAJobVC.swift in Sources */,
+				FC1DFCE31EA44F0C006F19BA /* Job_Data.swift in Sources */,
+				FC581A2E1EA44C0C00030F55 /* HomeVC.swift in Sources */,
+				FC1DFCE91EA48B49006F19BA /* PickACategoryVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC581A311EA44C0C00030F55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC581A321EA44C0C00030F55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC581A361EA44C0C00030F55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC581A371EA44C0C00030F55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC581A3A1EA44C0C00030F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC581A3B1EA44C0C00030F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC581A3D1EA44C0C00030F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AP3R3Y2XJP;
+				INFOPLIST_FILE = "ZiaHub App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Reciply.ZiaHub-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC581A3E1EA44C0C00030F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AP3R3Y2XJP;
+				INFOPLIST_FILE = "ZiaHub App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Reciply.ZiaHub-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC581A231EA44C0C00030F55 /* Build configuration list for PBXProject "ZiaHub App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC581A3A1EA44C0C00030F55 /* Debug */,
+				FC581A3B1EA44C0C00030F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC581A3C1EA44C0C00030F55 /* Build configuration list for PBXNativeTarget "ZiaHub App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC581A3D1EA44C0C00030F55 /* Debug */,
+				FC581A3E1EA44C0C00030F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC581A201EA44C0C00030F55 /* Project object */;
+}
